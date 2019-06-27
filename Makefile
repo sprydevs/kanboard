@@ -1,5 +1,5 @@
-DOCKER_IMAGE := docker.io/kanboard/kanboard
-DOCKER_TAG := master
+DOCKER_IMAGE := kanboard/kanboard
+DOCKER_TAG := latest
 VERSION := $(shell git rev-parse --short HEAD)
 
 .PHONY: all clean static jshint archive test-sqlite test-mysql test-postgres test-browser \
