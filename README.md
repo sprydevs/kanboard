@@ -5,6 +5,11 @@ Kanboard
 
 Kanboard is project management software that focuses on the Kanban methodology.
 
+## Quick Start
+- To run Kanboard with Docker, first [build your image](https://docs.kanboard.org/en/latest/admin_guide/docker.html#build-your-own-docker-image), then run `docker-compose up`. 
+- The default login credentials are documented in the [installation instructions](https://docs.kanboard.org/en/latest/admin_guide/installation.html#from-the-archive-stable-version).
+
+## Links
 - Official website: <https://kanboard.org/>
 - [List of features](https://kanboard.org/#features)
 - [Change Log](https://github.com/kanboard/kanboard/blob/master/ChangeLog)
