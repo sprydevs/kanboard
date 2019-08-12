@@ -8,7 +8,7 @@
             <th ><?= t('Title') ?></th>
             <th class="column-15"><?= t('Assignee') ?></th>
             <?= $this->hook->render('template:subtask:table:header:before-timetracking') ?>
-            <th class="column-15" ><?= t('Time tracking') ?></th>
+            <th class="column-15" ><?= t('Time Tracking') ?></th>
         </tr>
     </thead>
     <tbody>
