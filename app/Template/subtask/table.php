@@ -5,10 +5,10 @@
     >
     <thead>
         <tr>
-            <th class="column-45"><?= t('Title') ?></th>
+            <th ><?= t('Title') ?></th>
             <th class="column-15"><?= t('Assignee') ?></th>
             <?= $this->hook->render('template:subtask:table:header:before-timetracking') ?>
-            <th><?= t('Time tracking') ?></th>
+            <th class="column-15" ><?= t('Time tracking') ?></th>
         </tr>
     </thead>
     <tbody>
